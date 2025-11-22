@@ -237,26 +237,7 @@ else:
     st.info("Record some sections to enable XML export.")
 
 # Instructions
-with st.expander("ℹ️ How to Use"):
-    st.markdown("""
-    ### Step-by-Step Guide:
-    
-    1. **Start Timer**: Click the "▶️ Start" button when you enter the first space
-    2. **Create Sections**: Click "⏹️ Stop Lap" at the end of each audio tour section
-    3. **Edit Titles**: Expand each section and give it a meaningful title
-    4. **Export**: Select your frame rate and download the XML file
-    5. **Import to DaVinci Resolve**: 
-       - Open DaVinci Resolve
-       - Go to File → Import → Timeline
-       - Select the downloaded XML file
-       - Your sections will appear as markers/clips on the timeline
-    
-    ### Tips:
-    - You can pause the timer if needed
-    - Edit section titles to match your audio content
-    - Delete unwanted sections using the delete button
-    - The XML file contains both markers and clip information for easy editing
-    """)
+
 
 # Auto-refresh for running timer
 if st.session_state.running:
