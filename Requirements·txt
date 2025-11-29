@@ -1,5 +1,6 @@
-
 streamlit==1.31.0
 audio-recorder-streamlit==0.0.8
+openai==1.12.0
+anthropic==0.18.1
+elevenlabs==0.2.26
 requests==2.31.0
-python-dotenv==1.0.0
